@@ -1,6 +1,5 @@
 {
   "name": "pokemonteambuilder",
-  "homepage": "https://ensinho.github.io/pokemonTeamBuilder",
   "private": true,
   "version": "0.0.0",
   "type": "module",
