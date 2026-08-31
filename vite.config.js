@@ -11,7 +11,6 @@ const buildId = process.env.VITE_BUILD_ID || process.env.VERCEL_GIT_COMMIT_SHA |
 // https://vitejs.dev/config/
 export default defineConfig({
   base: process.env.VITE_BASE_PATH || (process.env.VERCEL ? '/' : '/pokemonTeamBuilder/'),
-  base: './',
   define: {
     __BUILD_ID__: JSON.stringify(buildId),
   },
